@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title> Buquês e Flores </title>
+	<link rel="icon" type="image/gif" href="./imagens/logope.png">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body{
+            background-color: rgb(175, 112, 170);
+            color: white;
+        }
+
+        header{
+            width: 100%;
+            height: 75px;
+        }
+
+        #logotipo{
+            width: 45%;
+            height: 100%;
+            margin: 0 auto;
+            background-image: url(./imagens/logo.png);
+            background-size: cover;
+        }
+
+        nav{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            background-color: rgb(175, 112, 170);
+        }
+
+        #menu-itens{
+            width: 70%;
+            height: 100%;
+            margin: 0 auto;
+            background-color: rgb(233, 161, 197);
+           
+        }
+
+        #menu-itens ul{
+            list-style: none;
+        }
+
+        #menu-itens ul li{
+            display: inline-block;
+            font-size: 35px;
+            padding: 10px;
+            margin-top: -8px;
+            margin-left: 50px;
+            color: white;
+        }
+
+        #menu-itens ul li a{
+            text-decoration: none;
+        }
+
+        #menu-itens ul li:hover{
+            color: rgb(216, 103, 201)
+        }
+
+        #container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        article{
+            width: 50%;
+            height: 100%;
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+
+        #img-produto{
+            width: 80%;
+            height: 50%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        
+        section{
+            width: 50%;
+            height: 100%;
+            padding: 10px;
+        }
+
+        .itens{
+            width: 90%;
+            height: 100px;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+        }
+
+        .itens a{
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .itens a:hover{
+            color: rgb(173, 47, 157);
+        }
+
+        .img-item{
+            width: 40%;
+            height: 100%;
+        }
+
+        .linha{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="logotipo">
+        
+        </div>
+
+    </header>
+
+    <nav>
+        <div id="menu-itens">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="namoro.html"><li>Namoro</li></a>
+            <a href="casamento.html"><li>Casamento</li></a>
+            <a href="diasespeciais.html"><li>Dias Especiais</li></a>
+            <a href="fotos.html"><li>Fotos</li></a>
+            <a href="contato.html"><li>Contato</li></a>
+        </ul>
+    </div>
+    </nav>
+
+    <br>
+    <center><h2><b> Presenteie alguém em um dia especial com um buquê!</b></h2></center>
+    <div id="container">
+        <article>
+        
+                <div class="linha">
+
+                    <div id="img-produto">
+                        <img src="./imagens/presente1.jpg" width="400" height="500">
+                    <center><h2><b> Livros </b></h2></center>
+                    <br>
+                    <center>Para os amantes de livros, esse é o presente ideal!</center>
+                    </div>
+
+                    <div id="img-produto">
+                        <img src="./imagens/presente2.jpg" width="400" height="500">
+                    <center><h2><b> Chocolates </b></h2></center>
+                    <br>
+                    <center>Quem não ama um chocolate não é mesmo?</center>  </div>
+                
+                    <div id="img-produto">
+                        <img src="./imagens/presente3.jpg" width="400" height="500">
+                    <center><h2><b> Cesta de Presentes </b></h2></center>
+                    <br>
+                    <center>Uma cesta de presentes composta por ursinho de pelúcia, flores e chocolates é o sonho!</center>  </div>
+                
+                    <div id="img-produto">
+                        <img src="./imagens/presente4.jpg" width="400" height="500">
+                    <center><h2><b> Dinheiro </b></h2></center>
+                    <br>
+                    <center> Quem não iria amar receber esse presente aqui não é mesmo?</center>  </div>
+                
+                </div>
+
+        </article>
+    </div>
+
+
+</body>
+</html>
